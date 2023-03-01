@@ -24,20 +24,30 @@ limitations under the License.
 
 > Base utilities for double-precision floating-point numbers.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/number-float64-base
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-base@esm/index.mjs';
-```
-
-You can also import the following named exports from the package:
-
-```javascript
-import { exponent, float64ToFloat32, float64ToInt32, float64ToInt64Bytes, float64ToUint32, fromBinaryString, fromInt64Bytes, fromWords, getHighWord, getLowWord, normalize, setHighWord, setLowWord, signbit, toBinaryString, toWords } from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-base@esm/index.mjs';
+var ns = require( '@stdlib/number-float64-base' );
 ```
 
 #### ns
@@ -86,20 +96,11 @@ var o = ns;
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-base@esm/index.mjs';
+```javascript
+var objectKeys = require( '@stdlib/utils-keys' );
+var ns = require( '@stdlib/number-float64-base' );
 
 console.log( objectKeys( ns ) );
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -123,7 +124,7 @@ console.log( objectKeys( ns ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -185,37 +186,37 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/number/float64/base/exponent]: https://github.com/stdlib-js/number-float64-base-exponent/tree/esm
+[@stdlib/number/float64/base/exponent]: https://github.com/stdlib-js/number-float64-base-exponent
 
-[@stdlib/number/float64/base/from-binary-string]: https://github.com/stdlib-js/number-float64-base-from-binary-string/tree/esm
+[@stdlib/number/float64/base/from-binary-string]: https://github.com/stdlib-js/number-float64-base-from-binary-string
 
-[@stdlib/number/float64/base/from-int64-bytes]: https://github.com/stdlib-js/number-float64-base-from-int64-bytes/tree/esm
+[@stdlib/number/float64/base/from-int64-bytes]: https://github.com/stdlib-js/number-float64-base-from-int64-bytes
 
-[@stdlib/number/float64/base/from-words]: https://github.com/stdlib-js/number-float64-base-from-words/tree/esm
+[@stdlib/number/float64/base/from-words]: https://github.com/stdlib-js/number-float64-base-from-words
 
-[@stdlib/number/float64/base/get-high-word]: https://github.com/stdlib-js/number-float64-base-get-high-word/tree/esm
+[@stdlib/number/float64/base/get-high-word]: https://github.com/stdlib-js/number-float64-base-get-high-word
 
-[@stdlib/number/float64/base/get-low-word]: https://github.com/stdlib-js/number-float64-base-get-low-word/tree/esm
+[@stdlib/number/float64/base/get-low-word]: https://github.com/stdlib-js/number-float64-base-get-low-word
 
-[@stdlib/number/float64/base/normalize]: https://github.com/stdlib-js/number-float64-base-normalize/tree/esm
+[@stdlib/number/float64/base/normalize]: https://github.com/stdlib-js/number-float64-base-normalize
 
-[@stdlib/number/float64/base/set-high-word]: https://github.com/stdlib-js/number-float64-base-set-high-word/tree/esm
+[@stdlib/number/float64/base/set-high-word]: https://github.com/stdlib-js/number-float64-base-set-high-word
 
-[@stdlib/number/float64/base/set-low-word]: https://github.com/stdlib-js/number-float64-base-set-low-word/tree/esm
+[@stdlib/number/float64/base/set-low-word]: https://github.com/stdlib-js/number-float64-base-set-low-word
 
-[@stdlib/number/float64/base/signbit]: https://github.com/stdlib-js/number-float64-base-signbit/tree/esm
+[@stdlib/number/float64/base/signbit]: https://github.com/stdlib-js/number-float64-base-signbit
 
-[@stdlib/number/float64/base/to-binary-string]: https://github.com/stdlib-js/number-float64-base-to-binary-string/tree/esm
+[@stdlib/number/float64/base/to-binary-string]: https://github.com/stdlib-js/number-float64-base-to-binary-string
 
-[@stdlib/number/float64/base/to-float32]: https://github.com/stdlib-js/number-float64-base-to-float32/tree/esm
+[@stdlib/number/float64/base/to-float32]: https://github.com/stdlib-js/number-float64-base-to-float32
 
-[@stdlib/number/float64/base/to-int32]: https://github.com/stdlib-js/number-float64-base-to-int32/tree/esm
+[@stdlib/number/float64/base/to-int32]: https://github.com/stdlib-js/number-float64-base-to-int32
 
-[@stdlib/number/float64/base/to-int64-bytes]: https://github.com/stdlib-js/number-float64-base-to-int64-bytes/tree/esm
+[@stdlib/number/float64/base/to-int64-bytes]: https://github.com/stdlib-js/number-float64-base-to-int64-bytes
 
-[@stdlib/number/float64/base/to-uint32]: https://github.com/stdlib-js/number-float64-base-to-uint32/tree/esm
+[@stdlib/number/float64/base/to-uint32]: https://github.com/stdlib-js/number-float64-base-to-uint32
 
-[@stdlib/number/float64/base/to-words]: https://github.com/stdlib-js/number-float64-base-to-words/tree/esm
+[@stdlib/number/float64/base/to-words]: https://github.com/stdlib-js/number-float64-base-to-words
 
 <!-- </toc-links> -->
 
