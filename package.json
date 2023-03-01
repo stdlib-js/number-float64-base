@@ -93,7 +93,7 @@
     "@stdlib/random-base-discrete-uniform": "^0.0.6",
     "@stdlib/random-base-randu": "^0.0.8",
     "@stdlib/random-base-uniform": "^0.0.6",
-    "@stdlib/string-format": "^0.0.3",
+    "@stdlib/error-tools-fmtprodmsg": "^0.0.2",
     "@stdlib/string-left-pad": "^0.0.9",
     "@stdlib/string-repeat": "^0.0.9",
     "@stdlib/string-right-pad": "^0.0.9",
