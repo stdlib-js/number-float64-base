@@ -70,7 +70,7 @@
     "@stdlib/assert-is-string": "^0.1.1",
     "@stdlib/assert-is-uint8array": "^0.1.1",
     "@stdlib/assert-is-windows": "^0.1.1",
-    "@stdlib/bench": "^0.1.0",
+    "@stdlib/bench": "^0.2.0",
     "@stdlib/boolean-ctor": "^0.1.1",
     "@stdlib/constants-float64-exponent-bias": "^0.1.1",
     "@stdlib/constants-float64-high-word-exponent-mask": "^0.1.1",
