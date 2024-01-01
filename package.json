@@ -70,7 +70,6 @@
     "@stdlib/assert-is-string": "^0.1.1",
     "@stdlib/assert-is-uint8array": "^0.1.1",
     "@stdlib/assert-is-windows": "^0.1.1",
-    "@stdlib/bench": "^0.2.1",
     "@stdlib/boolean-ctor": "^0.1.1",
     "@stdlib/constants-float64-exponent-bias": "^0.1.1",
     "@stdlib/constants-float64-high-word-exponent-mask": "^0.1.1",
@@ -104,7 +103,8 @@
     "semver": "^6.0.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
-    "tap-min": "git+https://github.com/Planeshifter/tap-min.git"
+    "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
+    "@stdlib/bench-harness": "^0.1.2"
   },
   "engines": {
     "node": ">=0.10.0",
