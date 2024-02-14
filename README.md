@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-base@deno/mod.js';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-base@v0.2.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { assert, exponent, float64ToFloat32, float64ToInt32, float64ToInt64Bytes, float64ToUint32, fromBinaryString, fromInt64Bytes, fromWords, getHighWord, getLowWord, normalize, setHighWord, setLowWord, signbit, toBinaryString, toWords } from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-base@deno/mod.js';
+import { assert, exponent, float64ToFloat32, float64ToInt32, float64ToInt64Bytes, float64ToUint32, fromBinaryString, fromInt64Bytes, fromWords, getHighWord, getLowWord, normalize, setHighWord, setLowWord, signbit, toBinaryString, toWords } from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-base@v0.2.0-deno/mod.js';
 ```
 
 #### ns
@@ -100,7 +100,7 @@ var o = ns;
 
 ```javascript
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@deno/mod.js';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-base@deno/mod.js';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-base@v0.2.0-deno/mod.js';
 
 console.log( objectKeys( ns ) );
 ```
