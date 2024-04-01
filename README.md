@@ -35,32 +35,20 @@ limitations under the License.
 
 > Base utilities for double-precision floating-point numbers.
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/number-float64-base
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
--   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var ns = require( '@stdlib/number-float64-base' );
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-base@deno/mod.js';
+```
+
+You can also import the following named exports from the package:
+
+```javascript
+import { assert, exponent, float64ToFloat32, float64ToInt32, float64ToInt64Bytes, float64ToUint32, fromBinaryString, fromInt64Bytes, fromWords, getHighWord, getLowWord, normalize, setHighWord, setLowWord, signbit, toBinaryString, toWords } from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-base@deno/mod.js';
 ```
 
 #### ns
@@ -111,8 +99,8 @@ var o = ns;
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-var objectKeys = require( '@stdlib/utils-keys' );
-var ns = require( '@stdlib/number-float64-base' );
+import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@deno/mod.js';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-base@deno/mod.js';
 
 console.log( objectKeys( ns ) );
 ```
@@ -138,7 +126,7 @@ console.log( objectKeys( ns ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -203,39 +191,39 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/number/float64/base/assert]: https://github.com/stdlib-js/number-float64-base-assert
+[@stdlib/number/float64/base/assert]: https://github.com/stdlib-js/number-float64-base-assert/tree/deno
 
-[@stdlib/number/float64/base/exponent]: https://github.com/stdlib-js/number-float64-base-exponent
+[@stdlib/number/float64/base/exponent]: https://github.com/stdlib-js/number-float64-base-exponent/tree/deno
 
-[@stdlib/number/float64/base/from-binary-string]: https://github.com/stdlib-js/number-float64-base-from-binary-string
+[@stdlib/number/float64/base/from-binary-string]: https://github.com/stdlib-js/number-float64-base-from-binary-string/tree/deno
 
-[@stdlib/number/float64/base/from-int64-bytes]: https://github.com/stdlib-js/number-float64-base-from-int64-bytes
+[@stdlib/number/float64/base/from-int64-bytes]: https://github.com/stdlib-js/number-float64-base-from-int64-bytes/tree/deno
 
-[@stdlib/number/float64/base/from-words]: https://github.com/stdlib-js/number-float64-base-from-words
+[@stdlib/number/float64/base/from-words]: https://github.com/stdlib-js/number-float64-base-from-words/tree/deno
 
-[@stdlib/number/float64/base/get-high-word]: https://github.com/stdlib-js/number-float64-base-get-high-word
+[@stdlib/number/float64/base/get-high-word]: https://github.com/stdlib-js/number-float64-base-get-high-word/tree/deno
 
-[@stdlib/number/float64/base/get-low-word]: https://github.com/stdlib-js/number-float64-base-get-low-word
+[@stdlib/number/float64/base/get-low-word]: https://github.com/stdlib-js/number-float64-base-get-low-word/tree/deno
 
-[@stdlib/number/float64/base/normalize]: https://github.com/stdlib-js/number-float64-base-normalize
+[@stdlib/number/float64/base/normalize]: https://github.com/stdlib-js/number-float64-base-normalize/tree/deno
 
-[@stdlib/number/float64/base/set-high-word]: https://github.com/stdlib-js/number-float64-base-set-high-word
+[@stdlib/number/float64/base/set-high-word]: https://github.com/stdlib-js/number-float64-base-set-high-word/tree/deno
 
-[@stdlib/number/float64/base/set-low-word]: https://github.com/stdlib-js/number-float64-base-set-low-word
+[@stdlib/number/float64/base/set-low-word]: https://github.com/stdlib-js/number-float64-base-set-low-word/tree/deno
 
-[@stdlib/number/float64/base/signbit]: https://github.com/stdlib-js/number-float64-base-signbit
+[@stdlib/number/float64/base/signbit]: https://github.com/stdlib-js/number-float64-base-signbit/tree/deno
 
-[@stdlib/number/float64/base/to-binary-string]: https://github.com/stdlib-js/number-float64-base-to-binary-string
+[@stdlib/number/float64/base/to-binary-string]: https://github.com/stdlib-js/number-float64-base-to-binary-string/tree/deno
 
-[@stdlib/number/float64/base/to-float32]: https://github.com/stdlib-js/number-float64-base-to-float32
+[@stdlib/number/float64/base/to-float32]: https://github.com/stdlib-js/number-float64-base-to-float32/tree/deno
 
-[@stdlib/number/float64/base/to-int32]: https://github.com/stdlib-js/number-float64-base-to-int32
+[@stdlib/number/float64/base/to-int32]: https://github.com/stdlib-js/number-float64-base-to-int32/tree/deno
 
-[@stdlib/number/float64/base/to-int64-bytes]: https://github.com/stdlib-js/number-float64-base-to-int64-bytes
+[@stdlib/number/float64/base/to-int64-bytes]: https://github.com/stdlib-js/number-float64-base-to-int64-bytes/tree/deno
 
-[@stdlib/number/float64/base/to-uint32]: https://github.com/stdlib-js/number-float64-base-to-uint32
+[@stdlib/number/float64/base/to-uint32]: https://github.com/stdlib-js/number-float64-base-to-uint32/tree/deno
 
-[@stdlib/number/float64/base/to-words]: https://github.com/stdlib-js/number-float64-base-to-words
+[@stdlib/number/float64/base/to-words]: https://github.com/stdlib-js/number-float64-base-to-words/tree/deno
 
 <!-- </toc-links> -->
 
