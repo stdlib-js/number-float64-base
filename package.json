@@ -39,7 +39,7 @@
     "@stdlib/number-float64-base-assert": "^0.2.1",
     "@stdlib/number-float64-base-exponent": "^0.2.2",
     "@stdlib/number-float64-base-from-binary-string": "^0.2.2",
-    "@stdlib/number-float64-base-from-int64-bytes": "^0.2.1",
+    "@stdlib/number-float64-base-from-int64-bytes": "^0.2.2",
     "@stdlib/number-float64-base-from-words": "^0.2.2",
     "@stdlib/number-float64-base-get-high-word": "^0.2.2",
     "@stdlib/number-float64-base-get-low-word": "^0.2.2",
