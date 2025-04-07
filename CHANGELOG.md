@@ -4,22 +4,264 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-01)
+## Unreleased (2025-04-07)
 
 <section class="packages">
 
 ### Packages
 
+<section class="package" id="number-float64-base-add-unreleased">
+
+#### [@stdlib/number/float64/base/add](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/number/float64/base/add)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`6747b5e`](https://github.com/stdlib-js/stdlib/commit/6747b5eb59487f5f009d7fe6e77a437031086de4) - add `number/float64/base/add`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="number-float64-base-add3-unreleased">
+
+#### [@stdlib/number/float64/base/add3](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/number/float64/base/add3)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`8237449`](https://github.com/stdlib-js/stdlib/commit/82374498aa55fb879594748f001d825325be090a) - add `number/float64/base/add3`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="number-float64-base-add4-unreleased">
+
+#### [@stdlib/number/float64/base/add4](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/number/float64/base/add4)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`a4c46eb`](https://github.com/stdlib-js/stdlib/commit/a4c46eb5e49d63ebb56383794cf305dd4425c80e) - add `number/float64/base/add4`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="number-float64-base-add5-unreleased">
+
+#### [@stdlib/number/float64/base/add5](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/number/float64/base/add5)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`9482391`](https://github.com/stdlib-js/stdlib/commit/948239152308586b57ee13cf19ad9d94da082ba9) - add `number/float64/base/add5`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="number-float64-base-div-unreleased">
+
+#### [@stdlib/number/float64/base/div](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/number/float64/base/div)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`04dad66`](https://github.com/stdlib-js/stdlib/commit/04dad669227c79a49042b3efd22f1cf25ff3ffa3) - add `number/float64/base/div`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="number-float64-base-identity-unreleased">
+
+#### [@stdlib/number/float64/base/identity](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/number/float64/base/identity)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`5bad5d8`](https://github.com/stdlib-js/stdlib/commit/5bad5d87849f385886e7f8f4a8f254bf58328b47) - add `number/float64/base/identity`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="number-float64-base-mul-unreleased">
+
+#### [@stdlib/number/float64/base/mul](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/number/float64/base/mul)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`b492938`](https://github.com/stdlib-js/stdlib/commit/b4929386b15742996509ca5fd2daee5373e7dae9) - add `number/float64/base/mul`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="number-float64-base-normalize-unreleased">
+
+#### [@stdlib/number/float64/base/normalize](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/number/float64/base/normalize)
+
+<details>
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#5347](https://github.com/stdlib-js/stdlib/issues/5347)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="number-float64-base-sub-unreleased">
+
+#### [@stdlib/number/float64/base/sub](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/number/float64/base/sub)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`2dc9e44`](https://github.com/stdlib-js/stdlib/commit/2dc9e440be9f5037024598969521418dcbba8ee0) - add `number/float64/base/sub`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="number-float64-base-to-words-unreleased">
+
+#### [@stdlib/number/float64/base/to-words](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/number/float64/base/to-words)
+
+<details>
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#5501](https://github.com/stdlib-js/stdlib/issues/5501)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 </section>
 
 <!-- /.packages -->
+
+<section class="issues">
+
+### Closed Issues
+
+A total of 2 issues were closed in this release:
+
+[#5347](https://github.com/stdlib-js/stdlib/issues/5347), [#5501](https://github.com/stdlib-js/stdlib/issues/5501)
+
+</section>
+
+<!-- /.issues -->
 
 <section class="contributors">
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 7 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
+-   GK Bishnoi
+-   Gururaj Gurram
+-   Justyn Shelby
+-   Karan Anand
+-   MANI
 -   Philipp Burckhardt
 
 </section>
@@ -32,6 +274,24 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 <details>
 
+-   [`ecc74c7`](https://github.com/stdlib-js/stdlib/commit/ecc74c726d322ec0845e023ab448494005572bff) - **chore:** fix EditorConfig lint errors [(#6181)](https://github.com/stdlib-js/stdlib/pull/6181) _(by MANI, Athan Reines)_
+-   [`1820a95`](https://github.com/stdlib-js/stdlib/commit/1820a95fb1d37471413f822d2ce004c1b8752b39) - **docs:** update related packages sections [(#6503)](https://github.com/stdlib-js/stdlib/pull/6503) _(by stdlib-bot)_
+-   [`a1e230f`](https://github.com/stdlib-js/stdlib/commit/a1e230f29297caa89880e9c194c615a0400fb7bc) - **chore:** clean up cppcheck-suppress comments _(by Karan Anand)_
+-   [`8f4f7b9`](https://github.com/stdlib-js/stdlib/commit/8f4f7b90e5411e921fc7eca8c365873e8db639e3) - **refactor:** rename file [(#6128)](https://github.com/stdlib-js/stdlib/pull/6128) _(by Gururaj Gurram)_
+-   [`5bad5d8`](https://github.com/stdlib-js/stdlib/commit/5bad5d87849f385886e7f8f4a8f254bf58328b47) - **feat:** add `number/float64/base/identity` _(by Gururaj Gurram)_
+-   [`4fdea8f`](https://github.com/stdlib-js/stdlib/commit/4fdea8f772529eba17f6045c4188b1674d97b432) - **chore:** fix EditorConfig lint errors [(#5514)](https://github.com/stdlib-js/stdlib/pull/5514) _(by Justyn Shelby)_
+-   [`35df6a5`](https://github.com/stdlib-js/stdlib/commit/35df6a54d1f8f054205b51e5f4e6700cb7fb2ed5) - **chore:** fix C lint errors [(#5354)](https://github.com/stdlib-js/stdlib/pull/5354) _(by GK Bishnoi)_
+-   [`92761ec`](https://github.com/stdlib-js/stdlib/commit/92761ec746d55b5cd6d48a06276b5e1bffe2cfb0) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`2dc9e44`](https://github.com/stdlib-js/stdlib/commit/2dc9e440be9f5037024598969521418dcbba8ee0) - **feat:** add `number/float64/base/sub` _(by Gururaj Gurram)_
+-   [`e910b33`](https://github.com/stdlib-js/stdlib/commit/e910b3362443e36936a6f3705daf63e032d891dc) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`04dad66`](https://github.com/stdlib-js/stdlib/commit/04dad669227c79a49042b3efd22f1cf25ff3ffa3) - **feat:** add `number/float64/base/div` _(by Gururaj Gurram)_
+-   [`eecf3f4`](https://github.com/stdlib-js/stdlib/commit/eecf3f43ccd1e5702f95ed616bef8001ac6eb66c) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`b492938`](https://github.com/stdlib-js/stdlib/commit/b4929386b15742996509ca5fd2daee5373e7dae9) - **feat:** add `number/float64/base/mul` _(by Gururaj Gurram)_
+-   [`9482391`](https://github.com/stdlib-js/stdlib/commit/948239152308586b57ee13cf19ad9d94da082ba9) - **feat:** add `number/float64/base/add5` _(by Gururaj Gurram)_
+-   [`a4c46eb`](https://github.com/stdlib-js/stdlib/commit/a4c46eb5e49d63ebb56383794cf305dd4425c80e) - **feat:** add `number/float64/base/add4` _(by Gururaj Gurram)_
+-   [`8237449`](https://github.com/stdlib-js/stdlib/commit/82374498aa55fb879594748f001d825325be090a) - **feat:** add `number/float64/base/add3` _(by Gururaj Gurram)_
+-   [`836170d`](https://github.com/stdlib-js/stdlib/commit/836170decec14309639deb41ae3a3c22256d68af) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`6747b5e`](https://github.com/stdlib-js/stdlib/commit/6747b5eb59487f5f009d7fe6e77a437031086de4) - **feat:** add `number/float64/base/add` _(by Gururaj Gurram)_
 -   [`b89c97c`](https://github.com/stdlib-js/stdlib/commit/b89c97ce0b812ff0b2aab16b4d77969d44fe3e8c) - **docs:** resolve lint errors in TS declaration files _(by Philipp Burckhardt)_
 -   [`b723a6e`](https://github.com/stdlib-js/stdlib/commit/b723a6eaec97adad2da4ffbecb532a3d1ae1e0ba) - **docs:** fix errors in comments and clean-up _(by Philipp Burckhardt)_
 
