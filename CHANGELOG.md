@@ -4,269 +4,41 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-07)
-
-<section class="packages">
-
-### Packages
-
-<section class="package" id="number-float64-base-add-unreleased">
-
-#### [@stdlib/number/float64/base/add](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/number/float64/base/add)
-
-<details>
+## Unreleased (2025-08-22)
 
 <section class="features">
 
-##### Features
+### Features
 
+-   [`379cdb9`](https://github.com/stdlib-js/stdlib/commit/379cdb9ca96fc51e5f10d4addcef0e7775f03d21) - add missing `number/float64/base` exports to namespace
+-   [`d10932c`](https://github.com/stdlib-js/stdlib/commit/d10932c2a1f70d4b26332abd0bc80ea09848618a) - add `number/float64/base/assert/is-almost-equal`
+-   [`e38f5ec`](https://github.com/stdlib-js/stdlib/commit/e38f5ecf382db6ed19fc3b66d75801fbf9909843) - add `number/float64/base/assert/is-almost-equal-value` [(#7473)](https://github.com/stdlib-js/stdlib/pull/7473)
+-   [`08a8de6`](https://github.com/stdlib-js/stdlib/commit/08a8de62e303504f0e7eb164cb4ac04aa7455c01) - add remaining implementation for `number/float64/base/ulp-difference` [(#7446)](https://github.com/stdlib-js/stdlib/pull/7446)
+-   [`fe7b8b6`](https://github.com/stdlib-js/stdlib/commit/fe7b8b60c99a3224267122ef12ebb5f6d917e076) - add initial implementation of `number/float64/base/ulp-difference`
+-   [`5bad5d8`](https://github.com/stdlib-js/stdlib/commit/5bad5d87849f385886e7f8f4a8f254bf58328b47) - add `number/float64/base/identity`
+-   [`2dc9e44`](https://github.com/stdlib-js/stdlib/commit/2dc9e440be9f5037024598969521418dcbba8ee0) - add `number/float64/base/sub`
+-   [`04dad66`](https://github.com/stdlib-js/stdlib/commit/04dad669227c79a49042b3efd22f1cf25ff3ffa3) - add `number/float64/base/div`
+-   [`b492938`](https://github.com/stdlib-js/stdlib/commit/b4929386b15742996509ca5fd2daee5373e7dae9) - add `number/float64/base/mul`
+-   [`9482391`](https://github.com/stdlib-js/stdlib/commit/948239152308586b57ee13cf19ad9d94da082ba9) - add `number/float64/base/add5`
+-   [`a4c46eb`](https://github.com/stdlib-js/stdlib/commit/a4c46eb5e49d63ebb56383794cf305dd4425c80e) - add `number/float64/base/add4`
+-   [`8237449`](https://github.com/stdlib-js/stdlib/commit/82374498aa55fb879594748f001d825325be090a) - add `number/float64/base/add3`
 -   [`6747b5e`](https://github.com/stdlib-js/stdlib/commit/6747b5eb59487f5f009d7fe6e77a437031086de4) - add `number/float64/base/add`
 
 </section>
 
 <!-- /.features -->
 
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="number-float64-base-add3-unreleased">
-
-#### [@stdlib/number/float64/base/add3](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/number/float64/base/add3)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`8237449`](https://github.com/stdlib-js/stdlib/commit/82374498aa55fb879594748f001d825325be090a) - add `number/float64/base/add3`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="number-float64-base-add4-unreleased">
-
-#### [@stdlib/number/float64/base/add4](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/number/float64/base/add4)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`a4c46eb`](https://github.com/stdlib-js/stdlib/commit/a4c46eb5e49d63ebb56383794cf305dd4425c80e) - add `number/float64/base/add4`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="number-float64-base-add5-unreleased">
-
-#### [@stdlib/number/float64/base/add5](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/number/float64/base/add5)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`9482391`](https://github.com/stdlib-js/stdlib/commit/948239152308586b57ee13cf19ad9d94da082ba9) - add `number/float64/base/add5`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="number-float64-base-div-unreleased">
-
-#### [@stdlib/number/float64/base/div](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/number/float64/base/div)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`04dad66`](https://github.com/stdlib-js/stdlib/commit/04dad669227c79a49042b3efd22f1cf25ff3ffa3) - add `number/float64/base/div`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="number-float64-base-identity-unreleased">
-
-#### [@stdlib/number/float64/base/identity](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/number/float64/base/identity)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`5bad5d8`](https://github.com/stdlib-js/stdlib/commit/5bad5d87849f385886e7f8f4a8f254bf58328b47) - add `number/float64/base/identity`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="number-float64-base-mul-unreleased">
-
-#### [@stdlib/number/float64/base/mul](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/number/float64/base/mul)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`b492938`](https://github.com/stdlib-js/stdlib/commit/b4929386b15742996509ca5fd2daee5373e7dae9) - add `number/float64/base/mul`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="number-float64-base-normalize-unreleased">
-
-#### [@stdlib/number/float64/base/normalize](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/number/float64/base/normalize)
-
-<details>
-
-<section class="issues">
-
-##### Closed Issues
-
-This release closes the following issue:
-
-[#5347](https://github.com/stdlib-js/stdlib/issues/5347)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="number-float64-base-sub-unreleased">
-
-#### [@stdlib/number/float64/base/sub](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/number/float64/base/sub)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`2dc9e44`](https://github.com/stdlib-js/stdlib/commit/2dc9e440be9f5037024598969521418dcbba8ee0) - add `number/float64/base/sub`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="number-float64-base-to-words-unreleased">
-
-#### [@stdlib/number/float64/base/to-words](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/number/float64/base/to-words)
-
-<details>
-
-<section class="issues">
-
-##### Closed Issues
-
-This release closes the following issue:
-
-[#5501](https://github.com/stdlib-js/stdlib/issues/5501)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-</section>
-
-<!-- /.packages -->
-
 <section class="issues">
 
 ### Closed Issues
 
-A total of 2 issues were closed in this release:
+A total of 6 issues were closed in this release:
 
-[#5347](https://github.com/stdlib-js/stdlib/issues/5347), [#5501](https://github.com/stdlib-js/stdlib/issues/5501)
+[#5347](https://github.com/stdlib-js/stdlib/issues/5347), [#5501](https://github.com/stdlib-js/stdlib/issues/5501), [#7337](https://github.com/stdlib-js/stdlib/issues/7337), [#7349](https://github.com/stdlib-js/stdlib/issues/7349), [#7393](https://github.com/stdlib-js/stdlib/issues/7393), [#7532](https://github.com/stdlib-js/stdlib/issues/7532)
 
 </section>
 
 <!-- /.issues -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 7 people contributed to this release. Thank you to the following contributors:
-
--   Athan Reines
--   GK Bishnoi
--   Gururaj Gurram
--   Justyn Shelby
--   Karan Anand
--   MANI
--   Philipp Burckhardt
-
-</section>
-
-<!-- /.contributors -->
 
 <section class="commits">
 
@@ -274,6 +46,31 @@ A total of 7 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`379cdb9`](https://github.com/stdlib-js/stdlib/commit/379cdb9ca96fc51e5f10d4addcef0e7775f03d21) - **feat:** add missing `number/float64/base` exports to namespace _(by Philipp Burckhardt)_
+-   [`21ec206`](https://github.com/stdlib-js/stdlib/commit/21ec2060d7496322ce32d4f984230d0c131974cc) - **docs:** clean-up example code _(by Philipp Burckhardt)_
+-   [`7add020`](https://github.com/stdlib-js/stdlib/commit/7add0201c13e56a0381926ccfd4073c84eaf2ed4) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`fc438e0`](https://github.com/stdlib-js/stdlib/commit/fc438e0edbad0689d6923d6f3edb959b96597662) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`11581aa`](https://github.com/stdlib-js/stdlib/commit/11581aaca8c3cb824cbb92c0c0f80e76890bdb20) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`7483bef`](https://github.com/stdlib-js/stdlib/commit/7483bef13b1d3241347266d25a02957269419825) - **test:** use .strictEqual() instead of .equal() _(by Philipp Burckhardt)_
+-   [`6eee151`](https://github.com/stdlib-js/stdlib/commit/6eee15199727d04e3757e66f38384e97b8a333da) - **style:** fix indentation in JSON files _(by Philipp Burckhardt)_
+-   [`409c1ff`](https://github.com/stdlib-js/stdlib/commit/409c1ff7475d0f0d38f3efb596739cf89686ca83) - **remove:** remove `number/float64/base/assert/is-almost-equal-value` _(by Karan Anand)_
+-   [`d10932c`](https://github.com/stdlib-js/stdlib/commit/d10932c2a1f70d4b26332abd0bc80ea09848618a) - **feat:** add `number/float64/base/assert/is-almost-equal` _(by Karan Anand)_
+-   [`bc8edad`](https://github.com/stdlib-js/stdlib/commit/bc8edad112684c9bb6aa1e05f76bdb8a9e1f331c) - **docs:** fix examples _(by Karan Anand)_
+-   [`f40cc8a`](https://github.com/stdlib-js/stdlib/commit/f40cc8a1d95b98379b0abb257bf5672b795f6a0b) - **chore:** fix C lint errors [(#7533)](https://github.com/stdlib-js/stdlib/pull/7533) _(by zhanggy)_
+-   [`e38f5ec`](https://github.com/stdlib-js/stdlib/commit/e38f5ecf382db6ed19fc3b66d75801fbf9909843) - **feat:** add `number/float64/base/assert/is-almost-equal-value` [(#7473)](https://github.com/stdlib-js/stdlib/pull/7473) _(by Karan Anand, Athan Reines)_
+-   [`0f53f18`](https://github.com/stdlib-js/stdlib/commit/0f53f18dee21a8e81a70eadd090b59223c264802) - **docs:** fix comment _(by Karan Anand)_
+-   [`08a8de6`](https://github.com/stdlib-js/stdlib/commit/08a8de62e303504f0e7eb164cb4ac04aa7455c01) - **feat:** add remaining implementation for `number/float64/base/ulp-difference` [(#7446)](https://github.com/stdlib-js/stdlib/pull/7446) _(by Karan Anand, Athan Reines)_
+-   [`5aeb4ef`](https://github.com/stdlib-js/stdlib/commit/5aeb4ef105b90890e89ab138a55316c2d6546f71) - **chore:** update package meta data [(#7442)](https://github.com/stdlib-js/stdlib/pull/7442) _(by stdlib-bot)_
+-   [`a61496d`](https://github.com/stdlib-js/stdlib/commit/a61496d6a61fc1609be2b6a221f7139f1d3e0843) - **docs:** add example _(by Athan Reines)_
+-   [`ef1811a`](https://github.com/stdlib-js/stdlib/commit/ef1811a903cbb6b95bb3eb6052fb7e7b52176952) - **docs:** add example _(by Athan Reines)_
+-   [`fe7b8b6`](https://github.com/stdlib-js/stdlib/commit/fe7b8b60c99a3224267122ef12ebb5f6d917e076) - **feat:** add initial implementation of `number/float64/base/ulp-difference` _(by Athan Reines)_
+-   [`07d3925`](https://github.com/stdlib-js/stdlib/commit/07d3925116182268a9acdac0b0e301d3e527e4f0) - **chore:** fix EditorConfig lint errors [(#7398)](https://github.com/stdlib-js/stdlib/pull/7398) _(by Lokesh Ranjan)_
+-   [`eff9b74`](https://github.com/stdlib-js/stdlib/commit/eff9b74602cd76a308c6518e1de5bd383b24b138) - **chore:** fix EditorConfig lint errors [(#7356)](https://github.com/stdlib-js/stdlib/pull/7356) _(by Lokesh Ranjan)_
+-   [`930d012`](https://github.com/stdlib-js/stdlib/commit/930d012685e0d75e6c0de8d80de7a39d67565e79) - **chore:** fix C lint errors [(#7338)](https://github.com/stdlib-js/stdlib/pull/7338) _(by zhanggy)_
+-   [`5896836`](https://github.com/stdlib-js/stdlib/commit/5896836635aa28aba7c97b3f21d32735d867c43b) - **build:** add package meta data _(by Athan Reines)_
+-   [`6c6fd79`](https://github.com/stdlib-js/stdlib/commit/6c6fd79627e1c79e5f98e53a05456057986c911a) - **build:** add package meta data _(by Athan Reines)_
+-   [`6803252`](https://github.com/stdlib-js/stdlib/commit/68032524e51f5f6b82e06e13253836ec5a539c40) - **build:** add package meta data _(by Athan Reines)_
+-   [`2a27875`](https://github.com/stdlib-js/stdlib/commit/2a278751234674b90251810a6e9236e917df5567) - **chore:** clean-up _(by Athan Reines)_
 -   [`ecc74c7`](https://github.com/stdlib-js/stdlib/commit/ecc74c726d322ec0845e023ab448494005572bff) - **chore:** fix EditorConfig lint errors [(#6181)](https://github.com/stdlib-js/stdlib/pull/6181) _(by MANI, Athan Reines)_
 -   [`1820a95`](https://github.com/stdlib-js/stdlib/commit/1820a95fb1d37471413f822d2ce004c1b8752b39) - **docs:** update related packages sections [(#6503)](https://github.com/stdlib-js/stdlib/pull/6503) _(by stdlib-bot)_
 -   [`a1e230f`](https://github.com/stdlib-js/stdlib/commit/a1e230f29297caa89880e9c194c615a0400fb7bc) - **chore:** clean up cppcheck-suppress comments _(by Karan Anand)_
@@ -301,6 +98,26 @@ A total of 7 people contributed to this release. Thank you to the following cont
 
 <!-- /.commits -->
 
+<section class="contributors">
+
+### Contributors
+
+A total of 9 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   GK Bishnoi
+-   Gururaj Gurram
+-   Justyn Shelby
+-   Karan Anand
+-   Lokesh Ranjan
+-   MANI
+-   Philipp Burckhardt
+-   zhanggy
+
+</section>
+
+<!-- /.contributors -->
+
 </section>
 
 <!-- /.release -->
@@ -309,70 +126,15 @@ A total of 7 people contributed to this release. Thank you to the following cont
 
 ## 0.2.2 (2024-07-28)
 
-<section class="packages">
-
-### Packages
-
-<section class="package" id="number-float64-base-normalize-v0.2.2">
-
-#### [@stdlib/number/float64/base/normalize](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/number/float64/base/normalize)
-
-<details>
-
 <section class="bug-fixes">
 
-##### Bug Fixes
+### Bug Fixes
 
 -   [`ca6614a`](https://github.com/stdlib-js/stdlib/commit/ca6614abe2ae5acdcfd6eccaf49a65215f60d99e) - add missing gypfile field entries
 
 </section>
 
 <!-- /.bug-fixes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="number-float64-base-signbit-v0.2.2">
-
-#### [@stdlib/number/float64/base/signbit](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/number/float64/base/signbit)
-
-<details>
-
-<section class="bug-fixes">
-
-##### Bug Fixes
-
--   [`ca6614a`](https://github.com/stdlib-js/stdlib/commit/ca6614abe2ae5acdcfd6eccaf49a65215f60d99e) - add missing gypfile field entries
-
-</section>
-
-<!-- /.bug-fixes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-</section>
-
-<!-- /.packages -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 2 people contributed to this release. Thank you to the following contributors:
-
--   Athan Reines
--   Philipp Burckhardt
-
-</section>
-
-<!-- /.contributors -->
 
 <section class="commits">
 
@@ -394,6 +156,19 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 <!-- /.commits -->
 
+<section class="contributors">
+
+### Contributors
+
+A total of 2 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
+
 </section>
 
 <!-- /.release -->
@@ -412,139 +187,30 @@ No changes reported for this release.
 
 ## 0.2.0 (2024-02-14)
 
-<section class="packages">
-
-### Packages
-
-<section class="package" id="number-float64-base-v0.2.0">
-
-#### [@stdlib/number/float64/base](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/number/float64/base)
-
-<details>
-
 <section class="features">
 
-##### Features
-
--   [`2693e3b`](https://github.com/stdlib-js/stdlib/commit/2693e3b3f0382542a51fc57d78e9ab59e2dc0681) - update namespace TypeScript declarations [(#1287)](https://github.com/stdlib-js/stdlib/pull/1287)
--   [`e2a8c34`](https://github.com/stdlib-js/stdlib/commit/e2a8c3495ec4dc5cc1d7b56535f0e30555519d86) - add `assert` to namespace
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="number-float64-base-assert-v0.2.0">
-
-#### [@stdlib/number/float64/base/assert](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/number/float64/base/assert)
-
-<details>
-
-<section class="features">
-
-##### Features
+### Features
 
 -   [`2693e3b`](https://github.com/stdlib-js/stdlib/commit/2693e3b3f0382542a51fc57d78e9ab59e2dc0681) - update namespace TypeScript declarations [(#1287)](https://github.com/stdlib-js/stdlib/pull/1287)
 -   [`d416f05`](https://github.com/stdlib-js/stdlib/commit/d416f05689f07a7c9b9b698e9ffa9a5a3b552e77) - add `isSameValueZero` to namespace
+-   [`9eec2ad`](https://github.com/stdlib-js/stdlib/commit/9eec2ad03a284893c24094258c2478615ee1b4bf) - add `number/float64/base/assert/is-same-value-zero`
+-   [`e2a8c34`](https://github.com/stdlib-js/stdlib/commit/e2a8c3495ec4dc5cc1d7b56535f0e30555519d86) - add `assert` to namespace
 -   [`6e01e5f`](https://github.com/stdlib-js/stdlib/commit/6e01e5f6e3d411bf1dc7a71780dd1f3ba40ae1da) - add `number/float64/base/assert`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="number-float64-base-assert-is-same-value-v0.2.0">
-
-#### [@stdlib/number/float64/base/assert/is-same-value](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/number/float64/base/assert/is-same-value)
-
-<details>
-
-<section class="features">
-
-##### Features
-
 -   [`4cae4c7`](https://github.com/stdlib-js/stdlib/commit/4cae4c7078b61e00316fdf2ec54e061869d19ac5) - add `number/float64/base/assert/is-same-value`
 
 </section>
 
 <!-- /.features -->
 
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="number-float64-base-assert-is-same-value-zero-v0.2.0">
-
-#### [@stdlib/number/float64/base/assert/is-same-value-zero](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/number/float64/base/assert/is-same-value-zero)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`9eec2ad`](https://github.com/stdlib-js/stdlib/commit/9eec2ad03a284893c24094258c2478615ee1b4bf) - add `number/float64/base/assert/is-same-value-zero`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="number-float64-base-exponent-v0.2.0">
-
-#### [@stdlib/number/float64/base/exponent](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/number/float64/base/exponent)
-
-<details>
-
 <section class="bug-fixes">
 
-##### Bug Fixes
+### Bug Fixes
 
 -   [`a170482`](https://github.com/stdlib-js/stdlib/commit/a170482dfff3c40eec8f86491c30b4fcd423eda0) - add missing field
 
 </section>
 
 <!-- /.bug-fixes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-</section>
-
-<!-- /.packages -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 2 people contributed to this release. Thank you to the following contributors:
-
--   Athan Reines
--   Philipp Burckhardt
-
-</section>
-
-<!-- /.contributors -->
 
 <section class="commits">
 
@@ -589,6 +255,19 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 <!-- /.commits -->
 
+<section class="contributors">
+
+### Contributors
+
+A total of 2 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
+
 </section>
 
 <!-- /.release -->
@@ -597,258 +276,13 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 ## 0.1.0 (2023-09-24)
 
-<section class="packages">
-
-### Packages
-
-<section class="package" id="number-float64-base-v0.1.0">
-
-#### [@stdlib/number/float64/base](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/number/float64/base)
-
-<details>
-
 <section class="features">
 
-##### Features
+### Features
 
 -   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="number-float64-base-exponent-v0.1.0">
-
-#### [@stdlib/number/float64/base/exponent](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/number/float64/base/exponent)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="number-float64-base-from--v0.1.0">
-
-#### [@stdlib/number/float64/base/from-](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/number/float64/base/from-)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="number-float64-base-from-int64-bytes-v0.1.0">
-
-#### [@stdlib/number/float64/base/from-int64-bytes](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/number/float64/base/from-int64-bytes)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="number-float64-base-from-words-v0.1.0">
-
-#### [@stdlib/number/float64/base/from-words](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/number/float64/base/from-words)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="number-float64-base-get-high-word-v0.1.0">
-
-#### [@stdlib/number/float64/base/get-high-word](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/number/float64/base/get-high-word)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="number-float64-base-get-low-word-v0.1.0">
-
-#### [@stdlib/number/float64/base/get-low-word](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/number/float64/base/get-low-word)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="number-float64-base-normalize-v0.1.0">
-
-#### [@stdlib/number/float64/base/normalize](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/number/float64/base/normalize)
-
-<details>
-
-<section class="features">
-
-##### Features
-
+-   [`c23a1d5`](https://github.com/stdlib-js/stdlib/commit/c23a1d5da978c5943a32a0eabee821b3de89e8fe) - refactor declarations to use generics
+-   [`efcd0af`](https://github.com/stdlib-js/stdlib/commit/efcd0af614f8ae0549bf3409ec30f2ed029baa25) - refactor declarations to use generics
 -   [`1e1b4b1`](https://github.com/stdlib-js/stdlib/commit/1e1b4b1fc32e06734099e2e00e0478f547d7fc68) - refactor declarations to use generics
 
 </section>
@@ -857,355 +291,13 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 <section class="bug-fixes">
 
-##### Bug Fixes
+### Bug Fixes
 
 -   [`92caf33`](https://github.com/stdlib-js/stdlib/commit/92caf33737034f6a06ca338ffba5b0095863ab0e) - update import path for `Collection` type definition
 
 </section>
 
 <!-- /.bug-fixes -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`1e1b4b1`](https://github.com/stdlib-js/stdlib/commit/1e1b4b1fc32e06734099e2e00e0478f547d7fc68): refactor declarations to use generics
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="number-float64-base-set-high-word-v0.1.0">
-
-#### [@stdlib/number/float64/base/set-high-word](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/number/float64/base/set-high-word)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="number-float64-base-set-low-word-v0.1.0">
-
-#### [@stdlib/number/float64/base/set-low-word](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/number/float64/base/set-low-word)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="number-float64-base-signbit-v0.1.0">
-
-#### [@stdlib/number/float64/base/signbit](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/number/float64/base/signbit)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="number-float64-base-to--v0.1.0">
-
-#### [@stdlib/number/float64/base/to-](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/number/float64/base/to-)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="number-float64-base-to-float32-v0.1.0">
-
-#### [@stdlib/number/float64/base/to-float32](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/number/float64/base/to-float32)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="number-float64-base-to-int32-v0.1.0">
-
-#### [@stdlib/number/float64/base/to-int32](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/number/float64/base/to-int32)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="number-float64-base-to-int64-bytes-v0.1.0">
-
-#### [@stdlib/number/float64/base/to-int64-bytes](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/number/float64/base/to-int64-bytes)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`efcd0af`](https://github.com/stdlib-js/stdlib/commit/efcd0af614f8ae0549bf3409ec30f2ed029baa25) - refactor declarations to use generics
-
-</section>
-
-<!-- /.features -->
-
-<section class="bug-fixes">
-
-##### Bug Fixes
-
--   [`92caf33`](https://github.com/stdlib-js/stdlib/commit/92caf33737034f6a06ca338ffba5b0095863ab0e) - update import path for `Collection` type definition
-
-</section>
-
-<!-- /.bug-fixes -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`efcd0af`](https://github.com/stdlib-js/stdlib/commit/efcd0af614f8ae0549bf3409ec30f2ed029baa25): refactor declarations to use generics
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="number-float64-base-to-uint32-v0.1.0">
-
-#### [@stdlib/number/float64/base/to-uint32](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/number/float64/base/to-uint32)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="number-float64-base-to-words-v0.1.0">
-
-#### [@stdlib/number/float64/base/to-words](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/number/float64/base/to-words)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`c23a1d5`](https://github.com/stdlib-js/stdlib/commit/c23a1d5da978c5943a32a0eabee821b3de89e8fe) - refactor declarations to use generics
-
-</section>
-
-<!-- /.features -->
-
-<section class="bug-fixes">
-
-##### Bug Fixes
-
--   [`92caf33`](https://github.com/stdlib-js/stdlib/commit/92caf33737034f6a06ca338ffba5b0095863ab0e) - update import path for `Collection` type definition
-
-</section>
-
-<!-- /.bug-fixes -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`c23a1d5`](https://github.com/stdlib-js/stdlib/commit/c23a1d5da978c5943a32a0eabee821b3de89e8fe): refactor declarations to use generics
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-</section>
-
-<!-- /.packages -->
 
 <section class="breaking-changes">
 
@@ -1222,19 +314,6 @@ A total of 2 people contributed to this release. Thank you to the following cont
 </section>
 
 <!-- /.breaking-changes -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 2 people contributed to this release. Thank you to the following contributors:
-
--   Athan Reines
--   Philipp Burckhardt
-
-</section>
-
-<!-- /.contributors -->
 
 <section class="commits">
 
@@ -1255,6 +334,19 @@ A total of 2 people contributed to this release. Thank you to the following cont
 </section>
 
 <!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 2 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
 
 </section>
 
