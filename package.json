@@ -104,6 +104,7 @@
     "@stdlib/math-base-special-floor": "^0.2.3",
     "@stdlib/math-base-special-pow": "^0.3.0",
     "@stdlib/math-base-special-round": "^0.3.0",
+    "@stdlib/number-float64-base-assert-is-almost-equal": "github:stdlib-js/number-float64-base-assert-is-almost-equal#main",
     "@stdlib/number-float64-base-assert-is-same-value": "^0.2.1",
     "@stdlib/number-float64-base-assert-is-same-value-zero": "^0.1.1",
     "@stdlib/number-uint8-base-to-binary-string": "^0.2.2",
