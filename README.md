@@ -35,38 +35,32 @@ limitations under the License.
 
 > Base utilities for double-precision floating-point numbers.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/number-float64-base
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-ns = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-base@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var ns = require( 'path/to/vendor/umd/number-float64-base/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-base@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.ns;
-})();
-</script>
+var ns = require( '@stdlib/number-float64-base' );
 ```
 
 #### ns
@@ -82,23 +76,32 @@ var o = ns;
 
 <div class="namespace-toc">
 
+-   <span class="signature">[`add( x, y )`][@stdlib/number/float64/base/add]</span><span class="delimiter">: </span><span class="description">compute the sum of two double-precision floating-point numbers.</span>
+-   <span class="signature">[`add3( x, y, z )`][@stdlib/number/float64/base/add3]</span><span class="delimiter">: </span><span class="description">compute the sum of three double-precision floating-point numbers.</span>
+-   <span class="signature">[`add4( x, y, z, w )`][@stdlib/number/float64/base/add4]</span><span class="delimiter">: </span><span class="description">compute the sum of four double-precision floating-point numbers.</span>
+-   <span class="signature">[`add5( x, y, z, w, u )`][@stdlib/number/float64/base/add5]</span><span class="delimiter">: </span><span class="description">compute the sum of five double-precision floating-point numbers.</span>
 -   <span class="signature">[`assert`][@stdlib/number/float64/base/assert]</span><span class="delimiter">: </span><span class="description">base double-precision floating-point number assert functions.</span>
+-   <span class="signature">[`div( x, y )`][@stdlib/number/float64/base/div]</span><span class="delimiter">: </span><span class="description">divide two double-precision floating-point numbers.</span>
 -   <span class="signature">[`exponent( x )`][@stdlib/number/float64/base/exponent]</span><span class="delimiter">: </span><span class="description">return an integer corresponding to the unbiased exponent of a double-precision floating-point number.</span>
 -   <span class="signature">[`fromBinaryString( bstr )`][@stdlib/number/float64/base/from-binary-string]</span><span class="delimiter">: </span><span class="description">create a double-precision floating-point number from a literal bit representation.</span>
 -   <span class="signature">[`fromInt64Bytes( bytes, stride, offset )`][@stdlib/number/float64/base/from-int64-bytes]</span><span class="delimiter">: </span><span class="description">convert a signed 64-bit integer byte array to a double-precision floating-point number.</span>
 -   <span class="signature">[`fromWords( high, low )`][@stdlib/number/float64/base/from-words]</span><span class="delimiter">: </span><span class="description">create a double-precision floating-point number from a higher order word and a lower order word.</span>
 -   <span class="signature">[`getHighWord( x )`][@stdlib/number/float64/base/get-high-word]</span><span class="delimiter">: </span><span class="description">return an unsigned 32-bit integer corresponding to the more significant 32 bits of a double-precision floating-point number.</span>
 -   <span class="signature">[`getLowWord( x )`][@stdlib/number/float64/base/get-low-word]</span><span class="delimiter">: </span><span class="description">return an unsigned 32-bit integer corresponding to the less significant 32 bits of a double-precision floating-point number.</span>
+-   <span class="signature">[`identity( x )`][@stdlib/number/float64/base/identity]</span><span class="delimiter">: </span><span class="description">evaluate the identity function of a double-precision floating-point number.</span>
+-   <span class="signature">[`mul( x, y )`][@stdlib/number/float64/base/mul]</span><span class="delimiter">: </span><span class="description">multiply two double-precision floating-point numbers.</span>
 -   <span class="signature">[`normalize( x )`][@stdlib/number/float64/base/normalize]</span><span class="delimiter">: </span><span class="description">return a normal number `y` and exponent `exp` satisfying `x = y * 2^exp`.</span>
 -   <span class="signature">[`setHighWord( x, high )`][@stdlib/number/float64/base/set-high-word]</span><span class="delimiter">: </span><span class="description">set the more significant 32 bits of a double-precision floating-point number.</span>
 -   <span class="signature">[`setLowWord( x, low )`][@stdlib/number/float64/base/set-low-word]</span><span class="delimiter">: </span><span class="description">set the less significant 32 bits of a double-precision floating-point number.</span>
 -   <span class="signature">[`signbit( x )`][@stdlib/number/float64/base/signbit]</span><span class="delimiter">: </span><span class="description">return a boolean indicating if the sign bit for a double-precision floating-point number is on (true) or off (false).</span>
+-   <span class="signature">[`sub( x, y )`][@stdlib/number/float64/base/sub]</span><span class="delimiter">: </span><span class="description">subtract two double-precision floating-point numbers.</span>
 -   <span class="signature">[`toBinaryString( x )`][@stdlib/number/float64/base/to-binary-string]</span><span class="delimiter">: </span><span class="description">return a string giving the literal bit representation of a double-precision floating-point number.</span>
 -   <span class="signature">[`float64ToFloat32( x )`][@stdlib/number/float64/base/to-float32]</span><span class="delimiter">: </span><span class="description">convert a double-precision floating-point number to the nearest single-precision floating-point number.</span>
 -   <span class="signature">[`float64ToInt32( x )`][@stdlib/number/float64/base/to-int32]</span><span class="delimiter">: </span><span class="description">convert a double-precision floating-point number to a signed 32-bit integer.</span>
 -   <span class="signature">[`float64ToInt64Bytes( x )`][@stdlib/number/float64/base/to-int64-bytes]</span><span class="delimiter">: </span><span class="description">convert an integer-valued double-precision floating-point number to a signed 64-bit integer byte array according to host byte order (endianness).</span>
 -   <span class="signature">[`float64ToUint32( x )`][@stdlib/number/float64/base/to-uint32]</span><span class="delimiter">: </span><span class="description">convert a double-precision floating-point number to an unsigned 32-bit integer.</span>
 -   <span class="signature">[`toWords( x )`][@stdlib/number/float64/base/to-words]</span><span class="delimiter">: </span><span class="description">split a double-precision floating-point number into a higher order word and a lower order word.</span>
+-   <span class="signature">[`ulpdiff( x, y )`][@stdlib/number/float64/base/ulp-difference]</span><span class="delimiter">: </span><span class="description">compute the number of representable double-precision floating-point values that separate two double-precision floating-point numbers along the real number line.</span>
 
 </div>
 
@@ -116,21 +119,11 @@ var o = ns;
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-base@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var objectKeys = require( '@stdlib/utils-keys' );
+var ns = require( '@stdlib/number-float64-base' );
 
 console.log( objectKeys( ns ) );
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -219,39 +212,57 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/number/float64/base/assert]: https://github.com/stdlib-js/number-float64-base-assert/tree/umd
+[@stdlib/number/float64/base/add]: https://github.com/stdlib-js/number-float64-base-add
 
-[@stdlib/number/float64/base/exponent]: https://github.com/stdlib-js/number-float64-base-exponent/tree/umd
+[@stdlib/number/float64/base/add3]: https://github.com/stdlib-js/number-float64-base-add3
 
-[@stdlib/number/float64/base/from-binary-string]: https://github.com/stdlib-js/number-float64-base-from-binary-string/tree/umd
+[@stdlib/number/float64/base/add4]: https://github.com/stdlib-js/number-float64-base-add4
 
-[@stdlib/number/float64/base/from-int64-bytes]: https://github.com/stdlib-js/number-float64-base-from-int64-bytes/tree/umd
+[@stdlib/number/float64/base/add5]: https://github.com/stdlib-js/number-float64-base-add5
 
-[@stdlib/number/float64/base/from-words]: https://github.com/stdlib-js/number-float64-base-from-words/tree/umd
+[@stdlib/number/float64/base/assert]: https://github.com/stdlib-js/number-float64-base-assert
 
-[@stdlib/number/float64/base/get-high-word]: https://github.com/stdlib-js/number-float64-base-get-high-word/tree/umd
+[@stdlib/number/float64/base/div]: https://github.com/stdlib-js/number-float64-base-div
 
-[@stdlib/number/float64/base/get-low-word]: https://github.com/stdlib-js/number-float64-base-get-low-word/tree/umd
+[@stdlib/number/float64/base/exponent]: https://github.com/stdlib-js/number-float64-base-exponent
 
-[@stdlib/number/float64/base/normalize]: https://github.com/stdlib-js/number-float64-base-normalize/tree/umd
+[@stdlib/number/float64/base/from-binary-string]: https://github.com/stdlib-js/number-float64-base-from-binary-string
 
-[@stdlib/number/float64/base/set-high-word]: https://github.com/stdlib-js/number-float64-base-set-high-word/tree/umd
+[@stdlib/number/float64/base/from-int64-bytes]: https://github.com/stdlib-js/number-float64-base-from-int64-bytes
 
-[@stdlib/number/float64/base/set-low-word]: https://github.com/stdlib-js/number-float64-base-set-low-word/tree/umd
+[@stdlib/number/float64/base/from-words]: https://github.com/stdlib-js/number-float64-base-from-words
 
-[@stdlib/number/float64/base/signbit]: https://github.com/stdlib-js/number-float64-base-signbit/tree/umd
+[@stdlib/number/float64/base/get-high-word]: https://github.com/stdlib-js/number-float64-base-get-high-word
 
-[@stdlib/number/float64/base/to-binary-string]: https://github.com/stdlib-js/number-float64-base-to-binary-string/tree/umd
+[@stdlib/number/float64/base/get-low-word]: https://github.com/stdlib-js/number-float64-base-get-low-word
 
-[@stdlib/number/float64/base/to-float32]: https://github.com/stdlib-js/number-float64-base-to-float32/tree/umd
+[@stdlib/number/float64/base/identity]: https://github.com/stdlib-js/number-float64-base-identity
 
-[@stdlib/number/float64/base/to-int32]: https://github.com/stdlib-js/number-float64-base-to-int32/tree/umd
+[@stdlib/number/float64/base/mul]: https://github.com/stdlib-js/number-float64-base-mul
 
-[@stdlib/number/float64/base/to-int64-bytes]: https://github.com/stdlib-js/number-float64-base-to-int64-bytes/tree/umd
+[@stdlib/number/float64/base/normalize]: https://github.com/stdlib-js/number-float64-base-normalize
 
-[@stdlib/number/float64/base/to-uint32]: https://github.com/stdlib-js/number-float64-base-to-uint32/tree/umd
+[@stdlib/number/float64/base/set-high-word]: https://github.com/stdlib-js/number-float64-base-set-high-word
 
-[@stdlib/number/float64/base/to-words]: https://github.com/stdlib-js/number-float64-base-to-words/tree/umd
+[@stdlib/number/float64/base/set-low-word]: https://github.com/stdlib-js/number-float64-base-set-low-word
+
+[@stdlib/number/float64/base/signbit]: https://github.com/stdlib-js/number-float64-base-signbit
+
+[@stdlib/number/float64/base/sub]: https://github.com/stdlib-js/number-float64-base-sub
+
+[@stdlib/number/float64/base/to-binary-string]: https://github.com/stdlib-js/number-float64-base-to-binary-string
+
+[@stdlib/number/float64/base/to-float32]: https://github.com/stdlib-js/number-float64-base-to-float32
+
+[@stdlib/number/float64/base/to-int32]: https://github.com/stdlib-js/number-float64-base-to-int32
+
+[@stdlib/number/float64/base/to-int64-bytes]: https://github.com/stdlib-js/number-float64-base-to-int64-bytes
+
+[@stdlib/number/float64/base/to-uint32]: https://github.com/stdlib-js/number-float64-base-to-uint32
+
+[@stdlib/number/float64/base/to-words]: https://github.com/stdlib-js/number-float64-base-to-words
+
+[@stdlib/number/float64/base/ulp-difference]: https://github.com/stdlib-js/number-float64-base-ulp-difference
 
 <!-- </toc-links> -->
 
