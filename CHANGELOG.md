@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-11-07)
+## Unreleased (2025-11-16)
 
 <section class="features">
 
@@ -49,6 +49,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`7db5b32`](https://github.com/stdlib-js/stdlib/commit/7db5b32afe976e2d3c216a45e0927c88e668d340) - **chore:** add `alias_prefix` to parent namespaces [(#8540)](https://github.com/stdlib-js/stdlib/pull/8540) _(by Gunj Joshi)_
 -   [`5f5bb2d`](https://github.com/stdlib-js/stdlib/commit/5f5bb2d4277a24000b57fb07bc28d821500cd7e8) - **docs:** update namespace table of contents [(#8425)](https://github.com/stdlib-js/stdlib/pull/8425) _(by stdlib-bot, Athan Reines)_
 -   [`4a62313`](https://github.com/stdlib-js/stdlib/commit/4a6231302d21f6fc21776091b2191bfdbf0cefe1) - **feat:** update `number/float64/base` TypeScript declarations _(by Philipp Burckhardt)_
 -   [`f114dad`](https://github.com/stdlib-js/stdlib/commit/f114dad17c4ab240701b7c67aeb313aac7831eb7) - **feat:** update `number/float64/base/assert` TypeScript declarations _(by Philipp Burckhardt)_
@@ -110,11 +111,12 @@ A total of 6 issues were closed in this release:
 
 ### Contributors
 
-A total of 9 people contributed to this release. Thank you to the following contributors:
+A total of 10 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Geo Daoyu
 -   Gopi Kishan
+-   Gunj Joshi
 -   Gururaj Gurram
 -   Justyn Shelby
 -   Karan Anand
