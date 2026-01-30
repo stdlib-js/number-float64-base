@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/number-float64-base",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "description": "Base utilities for double-precision floating-point numbers.",
   "license": "Apache-2.0",
   "author": {
@@ -36,32 +36,32 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/number-float64-base-add": "github:stdlib-js/number-float64-base-add#main",
-    "@stdlib/number-float64-base-add3": "github:stdlib-js/number-float64-base-add3#main",
-    "@stdlib/number-float64-base-add4": "github:stdlib-js/number-float64-base-add4#main",
-    "@stdlib/number-float64-base-add5": "github:stdlib-js/number-float64-base-add5#main",
-    "@stdlib/number-float64-base-assert": "^0.2.1",
-    "@stdlib/number-float64-base-div": "github:stdlib-js/number-float64-base-div#main",
+    "@stdlib/number-float64-base-add": "^0.1.0",
+    "@stdlib/number-float64-base-add3": "^0.1.0",
+    "@stdlib/number-float64-base-add4": "^0.1.0",
+    "@stdlib/number-float64-base-add5": "^0.1.0",
+    "@stdlib/number-float64-base-assert": "^0.3.0",
+    "@stdlib/number-float64-base-div": "^0.1.0",
     "@stdlib/number-float64-base-exponent": "^0.2.2",
     "@stdlib/number-float64-base-from-binary-string": "^0.2.2",
     "@stdlib/number-float64-base-from-int64-bytes": "^0.2.2",
     "@stdlib/number-float64-base-from-words": "^0.2.2",
     "@stdlib/number-float64-base-get-high-word": "^0.2.2",
     "@stdlib/number-float64-base-get-low-word": "^0.2.2",
-    "@stdlib/number-float64-base-identity": "github:stdlib-js/number-float64-base-identity#main",
-    "@stdlib/number-float64-base-mul": "github:stdlib-js/number-float64-base-mul#main",
+    "@stdlib/number-float64-base-identity": "^0.1.0",
+    "@stdlib/number-float64-base-mul": "^0.1.0",
     "@stdlib/number-float64-base-normalize": "^0.2.3",
     "@stdlib/number-float64-base-set-high-word": "^0.2.2",
     "@stdlib/number-float64-base-set-low-word": "^0.2.2",
     "@stdlib/number-float64-base-signbit": "^0.2.3",
-    "@stdlib/number-float64-base-sub": "github:stdlib-js/number-float64-base-sub#main",
+    "@stdlib/number-float64-base-sub": "^0.1.0",
     "@stdlib/number-float64-base-to-binary-string": "^0.2.2",
     "@stdlib/number-float64-base-to-float32": "^0.2.2",
     "@stdlib/number-float64-base-to-int32": "^0.2.2",
     "@stdlib/number-float64-base-to-int64-bytes": "^0.2.2",
     "@stdlib/number-float64-base-to-uint32": "^0.2.2",
     "@stdlib/number-float64-base-to-words": "^0.2.2",
-    "@stdlib/number-float64-base-ulp-difference": "github:stdlib-js/number-float64-base-ulp-difference#main",
+    "@stdlib/number-float64-base-ulp-difference": "^0.1.0",
     "@stdlib/utils-define-read-only-property": "^0.2.2"
   },
   "devDependencies": {
@@ -83,7 +83,12 @@
     "@stdlib/assert-is-uint8array": "^0.2.2",
     "@stdlib/assert-is-windows": "^0.2.2",
     "@stdlib/boolean-ctor": "^0.2.2",
-    "@stdlib/console-log-each-map": "github:stdlib-js/console-log-each-map#main",
+    "@stdlib/console-log-each-map": "^0.1.0",
+    "@stdlib/constants-float16-eps": "^0.2.2",
+    "@stdlib/constants-float16-max": "^0.2.2",
+    "@stdlib/constants-float16-ninf": "^0.2.2",
+    "@stdlib/constants-float16-pinf": "^0.2.2",
+    "@stdlib/constants-float16-smallest-normal": "^0.2.2",
     "@stdlib/constants-float64-eps": "^0.2.2",
     "@stdlib/constants-float64-exponent-bias": "^0.2.2",
     "@stdlib/constants-float64-high-word-exponent-mask": "^0.2.2",
@@ -95,8 +100,9 @@
     "@stdlib/constants-float64-smallest-normal": "^0.2.2",
     "@stdlib/constants-float64-smallest-subnormal": "^0.2.2",
     "@stdlib/constants-uint32-max": "^0.2.2",
+    "@stdlib/math-base-assert-is-finite": "^0.2.2",
     "@stdlib/math-base-assert-is-infinite": "^0.2.2",
-    "@stdlib/math-base-assert-is-integer": "^0.2.5",
+    "@stdlib/math-base-assert-is-integer": "^0.2.6",
     "@stdlib/math-base-assert-is-nan": "^0.2.2",
     "@stdlib/math-base-assert-is-negative-zero": "^0.2.2",
     "@stdlib/math-base-assert-is-positive-zero": "^0.2.2",
@@ -104,7 +110,9 @@
     "@stdlib/math-base-special-floor": "^0.2.3",
     "@stdlib/math-base-special-pow": "^0.3.0",
     "@stdlib/math-base-special-round": "^0.3.0",
-    "@stdlib/number-float64-base-assert-is-almost-equal": "github:stdlib-js/number-float64-base-assert-is-almost-equal#main",
+    "@stdlib/number-float16-base-from-word": "^0.2.0",
+    "@stdlib/number-float64-base-assert-is-almost-equal": "^0.1.0",
+    "@stdlib/number-float64-base-assert-is-almost-same-value": "^0.1.0",
     "@stdlib/number-float64-base-assert-is-same-value": "^0.2.1",
     "@stdlib/number-float64-base-assert-is-same-value-zero": "^0.1.1",
     "@stdlib/number-uint8-base-to-binary-string": "^0.2.2",
@@ -159,11 +167,6 @@
     "64-bit",
     "ieee754"
   ],
-  "__stdlib__": {
-    "scaffold": {
-      "alias_prefix": "stdlib_base_float64_"
-    }
-  },
   "funding": {
     "type": "opencollective",
     "url": "https://opencollective.com/stdlib"

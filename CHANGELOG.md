@@ -2,14 +2,20 @@
 
 > Package changelog.
 
-<section class="release" id="unreleased">
+<section class="release" id="v0.3.0">
 
-## Unreleased (2025-11-16)
+## 0.3.0 (2026-01-30)
 
 <section class="features">
 
 ### Features
 
+-   [`aa0c054`](https://github.com/stdlib-js/stdlib/commit/aa0c05478633005f146d6ddde6113f935f50e8da) - add `number/float64/base/sub3` [(#9778)](https://github.com/stdlib-js/stdlib/pull/9778)
+-   [`e27a9fb`](https://github.com/stdlib-js/stdlib/commit/e27a9fb6b0bcb7d131e3d9c02a9755459e4d65de) - add C implementation for `number/float64/base/to-float16` [(#9299)](https://github.com/stdlib-js/stdlib/pull/9299)
+-   [`d46e973`](https://github.com/stdlib-js/stdlib/commit/d46e97334b11c7fba92f42a999db865d8dc4fdd2) - update `number/float64/base/assert` TypeScript declarations [(#9203)](https://github.com/stdlib-js/stdlib/pull/9203)
+-   [`944d850`](https://github.com/stdlib-js/stdlib/commit/944d8507e3098c835182bc77b48f56b21e9f829f) - add `isAlmostSameValue` to namespace
+-   [`cb49481`](https://github.com/stdlib-js/stdlib/commit/cb494813a263590bf130b84692170027034bfe9b) - add `number/float64/base/assert/is-almost-same-value`
+-   [`91c8d6f`](https://github.com/stdlib-js/stdlib/commit/91c8d6fb9abb70ce88d6462416b9315ba7ccff78) - add `number/float64/base/to-float16` [(#8207)](https://github.com/stdlib-js/stdlib/pull/8207)
 -   [`4a62313`](https://github.com/stdlib-js/stdlib/commit/4a6231302d21f6fc21776091b2191bfdbf0cefe1) - update `number/float64/base` TypeScript declarations
 -   [`f114dad`](https://github.com/stdlib-js/stdlib/commit/f114dad17c4ab240701b7c67aeb313aac7831eb7) - update `number/float64/base/assert` TypeScript declarations
 -   [`0cf2dd6`](https://github.com/stdlib-js/stdlib/commit/0cf2dd65ae1a209d306184a82c4226742bfa6103) - add `isAlmostEqual` exports to namespaces
@@ -35,9 +41,9 @@
 
 ### Closed Issues
 
-A total of 6 issues were closed in this release:
+A total of 9 issues were closed in this release:
 
-[#5347](https://github.com/stdlib-js/stdlib/issues/5347), [#5501](https://github.com/stdlib-js/stdlib/issues/5501), [#7337](https://github.com/stdlib-js/stdlib/issues/7337), [#7349](https://github.com/stdlib-js/stdlib/issues/7349), [#7393](https://github.com/stdlib-js/stdlib/issues/7393), [#7532](https://github.com/stdlib-js/stdlib/issues/7532)
+[#5347](https://github.com/stdlib-js/stdlib/issues/5347), [#5501](https://github.com/stdlib-js/stdlib/issues/5501), [#7337](https://github.com/stdlib-js/stdlib/issues/7337), [#7349](https://github.com/stdlib-js/stdlib/issues/7349), [#7393](https://github.com/stdlib-js/stdlib/issues/7393), [#7532](https://github.com/stdlib-js/stdlib/issues/7532), [#8877](https://github.com/stdlib-js/stdlib/issues/8877), [#8895](https://github.com/stdlib-js/stdlib/issues/8895), [#9777](https://github.com/stdlib-js/stdlib/issues/9777)
 
 </section>
 
@@ -49,6 +55,17 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`aa0c054`](https://github.com/stdlib-js/stdlib/commit/aa0c05478633005f146d6ddde6113f935f50e8da) - **feat:** add `number/float64/base/sub3` [(#9778)](https://github.com/stdlib-js/stdlib/pull/9778) _(by Sachin Pangal, Neeraj Pathak)_
+-   [`2b51497`](https://github.com/stdlib-js/stdlib/commit/2b514972090db1f2361e3e932bdcee8bbcdedfb7) - **chore:** add structured package data for `number/float64/base/div` [(#9490)](https://github.com/stdlib-js/stdlib/pull/9490) _(by Neeraj Pathak)_
+-   [`6ce0275`](https://github.com/stdlib-js/stdlib/commit/6ce0275d3eec598ce3ecb8da74a1c82f0de3a482) - **docs:** remove incorrect hyphens from JSDoc `returns` annotations _(by Philipp Burckhardt)_
+-   [`e27a9fb`](https://github.com/stdlib-js/stdlib/commit/e27a9fb6b0bcb7d131e3d9c02a9755459e4d65de) - **feat:** add C implementation for `number/float64/base/to-float16` [(#9299)](https://github.com/stdlib-js/stdlib/pull/9299) _(by Gururaj Gurram)_
+-   [`d46e973`](https://github.com/stdlib-js/stdlib/commit/d46e97334b11c7fba92f42a999db865d8dc4fdd2) - **feat:** update `number/float64/base/assert` TypeScript declarations [(#9203)](https://github.com/stdlib-js/stdlib/pull/9203) _(by stdlib-bot)_
+-   [`de9dec4`](https://github.com/stdlib-js/stdlib/commit/de9dec49411a9f71d800970e9324e87dca52098b) - **docs:** update namespace table of contents [(#9205)](https://github.com/stdlib-js/stdlib/pull/9205) _(by stdlib-bot)_
+-   [`944d850`](https://github.com/stdlib-js/stdlib/commit/944d8507e3098c835182bc77b48f56b21e9f829f) - **feat:** add `isAlmostSameValue` to namespace _(by Athan Reines)_
+-   [`cb49481`](https://github.com/stdlib-js/stdlib/commit/cb494813a263590bf130b84692170027034bfe9b) - **feat:** add `number/float64/base/assert/is-almost-same-value` _(by Athan Reines)_
+-   [`5d190d4`](https://github.com/stdlib-js/stdlib/commit/5d190d495ee70092784ff21a7fd0d46d1e6ac2a4) - **chore:** fix C lint errors [(#8896)](https://github.com/stdlib-js/stdlib/pull/8896) _(by Geo Daoyu)_
+-   [`26cdd2f`](https://github.com/stdlib-js/stdlib/commit/26cdd2ffb32ecb9fc209026cf9488a895891b7df) - **chore:** fix C lint errors [(#8880)](https://github.com/stdlib-js/stdlib/pull/8880) _(by Geo Daoyu)_
+-   [`91c8d6f`](https://github.com/stdlib-js/stdlib/commit/91c8d6fb9abb70ce88d6462416b9315ba7ccff78) - **feat:** add `number/float64/base/to-float16` [(#8207)](https://github.com/stdlib-js/stdlib/pull/8207) _(by Gururaj Gurram, Athan Reines)_
 -   [`7db5b32`](https://github.com/stdlib-js/stdlib/commit/7db5b32afe976e2d3c216a45e0927c88e668d340) - **chore:** add `alias_prefix` to parent namespaces [(#8540)](https://github.com/stdlib-js/stdlib/pull/8540) _(by Gunj Joshi)_
 -   [`5f5bb2d`](https://github.com/stdlib-js/stdlib/commit/5f5bb2d4277a24000b57fb07bc28d821500cd7e8) - **docs:** update namespace table of contents [(#8425)](https://github.com/stdlib-js/stdlib/pull/8425) _(by stdlib-bot, Athan Reines)_
 -   [`4a62313`](https://github.com/stdlib-js/stdlib/commit/4a6231302d21f6fc21776091b2191bfdbf0cefe1) - **feat:** update `number/float64/base` TypeScript declarations _(by Philipp Burckhardt)_
@@ -111,7 +128,7 @@ A total of 6 issues were closed in this release:
 
 ### Contributors
 
-A total of 10 people contributed to this release. Thank you to the following contributors:
+A total of 12 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Geo Daoyu
@@ -122,7 +139,9 @@ A total of 10 people contributed to this release. Thank you to the following con
 -   Karan Anand
 -   Lokesh Ranjan
 -   MANI
+-   Neeraj Pathak
 -   Philipp Burckhardt
+-   Sachin Pangal
 
 </section>
 
