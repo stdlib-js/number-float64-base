@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-base@esm/index.mjs';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-base@v0.3.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { add, add3, add4, add5, assert, div, exponent, float64ToFloat32, float64ToInt32, float64ToInt64Bytes, float64ToUint32, fromBinaryString, fromInt64Bytes, fromWords, getHighWord, getLowWord, identity, mul, normalize, setHighWord, setLowWord, signbit, sub, toBinaryString, toWords, ulpdiff } from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-base@esm/index.mjs';
+import { add, add3, add4, add5, assert, div, exponent, float64ToFloat32, float64ToInt32, float64ToInt64Bytes, float64ToUint32, fromBinaryString, fromInt64Bytes, fromWords, getHighWord, getLowWord, identity, mul, normalize, setHighWord, setLowWord, signbit, sub, toBinaryString, toWords, ulpdiff } from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-base@v0.3.0-esm/index.mjs';
 ```
 
 #### ns
@@ -114,7 +114,7 @@ var o = ns;
 <script type="module">
 
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-base@esm/index.mjs';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-base@v0.3.0-esm/index.mjs';
 
 console.log( objectKeys( ns ) );
 
