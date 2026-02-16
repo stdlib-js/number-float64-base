@@ -35,43 +35,32 @@ limitations under the License.
 
 > Base utilities for double-precision floating-point numbers.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/number-float64-base
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-ns = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-base@umd/browser.js' )
-```
-The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/number-float64-base/tags). For example,
-
-```javascript
-ns = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-base@v0.3.1-umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var ns = require( 'path/to/vendor/umd/number-float64-base/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-base@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.ns;
-})();
-</script>
+var ns = require( '@stdlib/number-float64-base' );
 ```
 
 #### ns
@@ -130,21 +119,11 @@ var o = ns;
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-base@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var objectKeys = require( '@stdlib/utils-keys' );
+var ns = require( '@stdlib/number-float64-base' );
 
 console.log( objectKeys( ns ) );
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -198,8 +177,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/number-float64-base.svg
 [npm-url]: https://npmjs.org/package/@stdlib/number-float64-base
 
-[test-image]: https://github.com/stdlib-js/number-float64-base/actions/workflows/test.yml/badge.svg?branch=v0.3.1
-[test-url]: https://github.com/stdlib-js/number-float64-base/actions/workflows/test.yml?query=branch:v0.3.1
+[test-image]: https://github.com/stdlib-js/number-float64-base/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/number-float64-base/actions/workflows/test.yml?query=branch:main
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/number-float64-base/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/number-float64-base?branch=main
@@ -233,57 +212,57 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/number/float64/base/add]: https://github.com/stdlib-js/number-float64-base-add/tree/umd
+[@stdlib/number/float64/base/add]: https://github.com/stdlib-js/number-float64-base-add
 
-[@stdlib/number/float64/base/add3]: https://github.com/stdlib-js/number-float64-base-add3/tree/umd
+[@stdlib/number/float64/base/add3]: https://github.com/stdlib-js/number-float64-base-add3
 
-[@stdlib/number/float64/base/add4]: https://github.com/stdlib-js/number-float64-base-add4/tree/umd
+[@stdlib/number/float64/base/add4]: https://github.com/stdlib-js/number-float64-base-add4
 
-[@stdlib/number/float64/base/add5]: https://github.com/stdlib-js/number-float64-base-add5/tree/umd
+[@stdlib/number/float64/base/add5]: https://github.com/stdlib-js/number-float64-base-add5
 
-[@stdlib/number/float64/base/assert]: https://github.com/stdlib-js/number-float64-base-assert/tree/umd
+[@stdlib/number/float64/base/assert]: https://github.com/stdlib-js/number-float64-base-assert
 
-[@stdlib/number/float64/base/div]: https://github.com/stdlib-js/number-float64-base-div/tree/umd
+[@stdlib/number/float64/base/div]: https://github.com/stdlib-js/number-float64-base-div
 
-[@stdlib/number/float64/base/exponent]: https://github.com/stdlib-js/number-float64-base-exponent/tree/umd
+[@stdlib/number/float64/base/exponent]: https://github.com/stdlib-js/number-float64-base-exponent
 
-[@stdlib/number/float64/base/from-binary-string]: https://github.com/stdlib-js/number-float64-base-from-binary-string/tree/umd
+[@stdlib/number/float64/base/from-binary-string]: https://github.com/stdlib-js/number-float64-base-from-binary-string
 
-[@stdlib/number/float64/base/from-int64-bytes]: https://github.com/stdlib-js/number-float64-base-from-int64-bytes/tree/umd
+[@stdlib/number/float64/base/from-int64-bytes]: https://github.com/stdlib-js/number-float64-base-from-int64-bytes
 
-[@stdlib/number/float64/base/from-words]: https://github.com/stdlib-js/number-float64-base-from-words/tree/umd
+[@stdlib/number/float64/base/from-words]: https://github.com/stdlib-js/number-float64-base-from-words
 
-[@stdlib/number/float64/base/get-high-word]: https://github.com/stdlib-js/number-float64-base-get-high-word/tree/umd
+[@stdlib/number/float64/base/get-high-word]: https://github.com/stdlib-js/number-float64-base-get-high-word
 
-[@stdlib/number/float64/base/get-low-word]: https://github.com/stdlib-js/number-float64-base-get-low-word/tree/umd
+[@stdlib/number/float64/base/get-low-word]: https://github.com/stdlib-js/number-float64-base-get-low-word
 
-[@stdlib/number/float64/base/identity]: https://github.com/stdlib-js/number-float64-base-identity/tree/umd
+[@stdlib/number/float64/base/identity]: https://github.com/stdlib-js/number-float64-base-identity
 
-[@stdlib/number/float64/base/mul]: https://github.com/stdlib-js/number-float64-base-mul/tree/umd
+[@stdlib/number/float64/base/mul]: https://github.com/stdlib-js/number-float64-base-mul
 
-[@stdlib/number/float64/base/normalize]: https://github.com/stdlib-js/number-float64-base-normalize/tree/umd
+[@stdlib/number/float64/base/normalize]: https://github.com/stdlib-js/number-float64-base-normalize
 
-[@stdlib/number/float64/base/set-high-word]: https://github.com/stdlib-js/number-float64-base-set-high-word/tree/umd
+[@stdlib/number/float64/base/set-high-word]: https://github.com/stdlib-js/number-float64-base-set-high-word
 
-[@stdlib/number/float64/base/set-low-word]: https://github.com/stdlib-js/number-float64-base-set-low-word/tree/umd
+[@stdlib/number/float64/base/set-low-word]: https://github.com/stdlib-js/number-float64-base-set-low-word
 
-[@stdlib/number/float64/base/signbit]: https://github.com/stdlib-js/number-float64-base-signbit/tree/umd
+[@stdlib/number/float64/base/signbit]: https://github.com/stdlib-js/number-float64-base-signbit
 
-[@stdlib/number/float64/base/sub]: https://github.com/stdlib-js/number-float64-base-sub/tree/umd
+[@stdlib/number/float64/base/sub]: https://github.com/stdlib-js/number-float64-base-sub
 
-[@stdlib/number/float64/base/to-binary-string]: https://github.com/stdlib-js/number-float64-base-to-binary-string/tree/umd
+[@stdlib/number/float64/base/to-binary-string]: https://github.com/stdlib-js/number-float64-base-to-binary-string
 
-[@stdlib/number/float64/base/to-float32]: https://github.com/stdlib-js/number-float64-base-to-float32/tree/umd
+[@stdlib/number/float64/base/to-float32]: https://github.com/stdlib-js/number-float64-base-to-float32
 
-[@stdlib/number/float64/base/to-int32]: https://github.com/stdlib-js/number-float64-base-to-int32/tree/umd
+[@stdlib/number/float64/base/to-int32]: https://github.com/stdlib-js/number-float64-base-to-int32
 
-[@stdlib/number/float64/base/to-int64-bytes]: https://github.com/stdlib-js/number-float64-base-to-int64-bytes/tree/umd
+[@stdlib/number/float64/base/to-int64-bytes]: https://github.com/stdlib-js/number-float64-base-to-int64-bytes
 
-[@stdlib/number/float64/base/to-uint32]: https://github.com/stdlib-js/number-float64-base-to-uint32/tree/umd
+[@stdlib/number/float64/base/to-uint32]: https://github.com/stdlib-js/number-float64-base-to-uint32
 
-[@stdlib/number/float64/base/to-words]: https://github.com/stdlib-js/number-float64-base-to-words/tree/umd
+[@stdlib/number/float64/base/to-words]: https://github.com/stdlib-js/number-float64-base-to-words
 
-[@stdlib/number/float64/base/ulp-difference]: https://github.com/stdlib-js/number-float64-base-ulp-difference/tree/umd
+[@stdlib/number/float64/base/ulp-difference]: https://github.com/stdlib-js/number-float64-base-ulp-difference
 
 <!-- </toc-links> -->
 
