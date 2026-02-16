@@ -2,6 +2,28 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-02-16)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`90c521f`](https://github.com/stdlib-js/stdlib/commit/90c521fba4bb69acd67ea5b4d1ff8748559b15b2) - **docs:** remove extra empty line [(#10225)](https://github.com/stdlib-js/stdlib/pull/10225) _(by stdlib-bot)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.3.1">
 
 ## 0.3.1 (2026-02-08)
