@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-03-29)
+## Unreleased (2026-05-05)
 
 <section class="commits">
 
@@ -12,6 +12,9 @@
 
 <details>
 
+-   [`fe2eec4`](https://github.com/stdlib-js/stdlib/commit/fe2eec4417d858b83b208929a4bbac3d9d236fa4) - **bench:** refactor to use string interpolation in `number` [(#11603)](https://github.com/stdlib-js/stdlib/pull/11603) _(by Karan Anand)_
+-   [`c9560de`](https://github.com/stdlib-js/stdlib/commit/c9560dedc2ebc61dc8eb2bba775555841f175eea) - **bench:** refactor to use `logEachMap` in examples [(#11454)](https://github.com/stdlib-js/stdlib/pull/11454) _(by Lokesh Ranjan)_
+-   [`35566af`](https://github.com/stdlib-js/stdlib/commit/35566af0add64775e60422fd16e50e1bec3947e7) - **docs:** fix C examples in READMEs [(#11229)](https://github.com/stdlib-js/stdlib/pull/11229) _(by anee3, Athan Reines)_
 -   [`90c521f`](https://github.com/stdlib-js/stdlib/commit/90c521fba4bb69acd67ea5b4d1ff8748559b15b2) - **docs:** remove extra empty line [(#10225)](https://github.com/stdlib-js/stdlib/pull/10225) _(by stdlib-bot)_
 
 </details>
@@ -19,6 +22,21 @@
 </section>
 
 <!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 4 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Karan Anand
+-   Lokesh Ranjan
+-   anee3
+
+</section>
+
+<!-- /.contributors -->
 
 </section>
 
