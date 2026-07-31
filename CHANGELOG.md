@@ -4,7 +4,19 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-14)
+## Unreleased (2026-07-31)
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#13275](https://github.com/stdlib-js/stdlib/issues/13275)
+
+</section>
+
+<!-- /.issues -->
 
 <section class="commits">
 
@@ -12,6 +24,9 @@
 
 <details>
 
+-   [`d5a7bdb`](https://github.com/stdlib-js/stdlib/commit/d5a7bdb92ee34aa1d8926b64cac51b65ff0907c7) - **docs:** remove hyphen _(by Athan Reines)_
+-   [`3fab81a`](https://github.com/stdlib-js/stdlib/commit/3fab81a6c52512fb46519359fbd72b19cd9a8006) - **chore:** fix C lint errors [(#13280)](https://github.com/stdlib-js/stdlib/pull/13280) _(by Ujjwal Verma)_
+-   [`68d7a66`](https://github.com/stdlib-js/stdlib/commit/68d7a66061c44c019f8b4852ae2860ad8d96c708) - **chore:** update keywords and add missing section heading [(#13009)](https://github.com/stdlib-js/stdlib/pull/13009) _(by Philipp Burckhardt)_
 -   [`fe2eec4`](https://github.com/stdlib-js/stdlib/commit/fe2eec4417d858b83b208929a4bbac3d9d236fa4) - **bench:** refactor to use string interpolation in `number` [(#11603)](https://github.com/stdlib-js/stdlib/pull/11603) _(by Karan Anand)_
 -   [`c9560de`](https://github.com/stdlib-js/stdlib/commit/c9560dedc2ebc61dc8eb2bba775555841f175eea) - **docs:** refactor to use `logEachMap` in examples [(#11454)](https://github.com/stdlib-js/stdlib/pull/11454) _(by Lokesh Ranjan)_
 -   [`35566af`](https://github.com/stdlib-js/stdlib/commit/35566af0add64775e60422fd16e50e1bec3947e7) - **docs:** fix C examples in READMEs [(#11229)](https://github.com/stdlib-js/stdlib/pull/11229) _(by anee3, Athan Reines)_
@@ -27,11 +42,13 @@
 
 ### Contributors
 
-A total of 4 people contributed to this release. Thank you to the following contributors:
+A total of 6 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Karan Anand
 -   Lokesh Ranjan
+-   Philipp Burckhardt
+-   Ujjwal Verma
 -   anee3
 
 </section>
