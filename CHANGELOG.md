@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-19)
+## Unreleased (2026-11-06)
 
 <section class="features">
 
@@ -35,6 +35,9 @@ This release closes the following issue:
 
 <details>
 
+-   [`7349dff`](https://github.com/stdlib-js/stdlib/commit/7349dffeddd90289879f06e70acc1be8544af75b) - **style:** add missing whitespace [(#16507)](https://github.com/stdlib-js/stdlib/pull/16507) _(by Philipp Burckhardt)_
+-   [`78ad2fa`](https://github.com/stdlib-js/stdlib/commit/78ad2fa5dbb12ce808dec93197d5343745ff91b8) - **docs:** normalize trailing newlines in REPL help texts [(#16420)](https://github.com/stdlib-js/stdlib/pull/16420) _(by Philipp Burckhardt)_
+-   [`0aaede3`](https://github.com/stdlib-js/stdlib/commit/0aaede3d8af08594d6d599750d6f31106687e826) - **chore:** rename files [(#15945)](https://github.com/stdlib-js/stdlib/pull/15945) _(by Philipp Burckhardt)_
 -   [`02db01b`](https://github.com/stdlib-js/stdlib/commit/02db01b365ea04f74545222257fc951c6a53b529) - **feat:** add C implementation to `number/float64/base/assert/is-almost-same-value` [(#15076)](https://github.com/stdlib-js/stdlib/pull/15076) _(by Muhammad Haris, Athan Reines)_
 -   [`b74c268`](https://github.com/stdlib-js/stdlib/commit/b74c2687461fb1642089500b7cc8541d1100bfb4) - **docs:** fix return annotation [(#15074)](https://github.com/stdlib-js/stdlib/pull/15074) _(by Philipp Burckhardt)_
 -   [`b5e2b90`](https://github.com/stdlib-js/stdlib/commit/b5e2b904797ed4e217a24dfcff6cb2c8b5a3e578) - **feat:** add `C` implementation to `number/float64/base/ulp-difference` [(#15044)](https://github.com/stdlib-js/stdlib/pull/15044) _(by Muhammad Haris)_
